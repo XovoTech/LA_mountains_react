@@ -1,0 +1,35 @@
+/* FullScreenComponent.css */
+.full-screen-component {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/6.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    /* You can add other styles for the background, like background color, overlay, etc. */
+  }
+  
+  .top-images {
+    position: absolute;
+    top: 0%;
+    left: 25%;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .top-images img {
+    width: 60%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .bottom-slider {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* Add styles for the slider here */
+  }
+  

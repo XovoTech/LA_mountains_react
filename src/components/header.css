@@ -1,0 +1,39 @@
+.header{
+    height: 10vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+.menu-holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15%;
+
+    font-size: 1.1em;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.header-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    height: 50px;
+    width: 100px;
+}
+
+.text-logo{
+    height: 80px;
+    width: 200px;
+    transform: translateX(-3em);
+}

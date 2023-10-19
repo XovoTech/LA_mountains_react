@@ -1,0 +1,27 @@
+
+.full-screen-image {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black; /* You can set a background color if the image doesn't cover the entire page */
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  
+
+.text-montain{
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
