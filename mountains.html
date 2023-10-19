@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+  </head>
+  <body>
+    <div id="root">
+        <div className="header" style='background-color: transparent;'>
+            <div className='header-logo'>
+                <div className='logo-container'>
+                    <img src='./src/assets/2.png' alt='logo' className='logo'/>
+                </div>
+                <div>
+                    <img src='./src/assets/3.png' alt='text_logo' className='text-logo'/>
+                </div>
+            </div>
+            <div className='menu-holder'>
+                <p>01.history</p>
+                <p>02.team</p>
+            </div>
+        </div>
+        <div className="full-screen-image">
+            <img
+                src={mountain} 
+                alt="Full Screen Image"
+                className="image"
+            />
+        </div>
+
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+
+
